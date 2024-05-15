@@ -1,0 +1,25 @@
+{
+  "name": "assignment-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "bunyan-winston-adapter": "^0.2.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.3.4",
+    "mongoose-api-query": "^0.1.1-pre",
+    "mongoose-createdmodified": "^0.0.2",
+    "restify": "^11.1.0",
+    "restify-cors-middleware2": "^2.2.1",
+    "restify-errors": "^8.0.2",
+    "winston": "^3.13.0"
+  }
+}
